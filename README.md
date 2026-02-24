@@ -1,10 +1,11 @@
-<p align="center">
+<p align="center"> 
+<img width="418" height="120" alt="Azure Logo" src="https://github.com/user-attachments/assets/3b6347a2-5104-4eb2-b4a2-0a7a28524ee0" />
 </p>
 
-<h1>Creating a Virtual Network on Azure</h1>
+<h1>Creating Virtual Machines on Azure</h1>
 Mircosoft Azure is cloud service that allows you create resources such virtual machines, virtual networks, storage and much more that scales with your 
 company needs. It is very important to have experience with cloud computing as an IT professional as many compaines are moving their IT infrastructure to 
-the cloud. In this tutorial I will show you how to create virtual machines in that share a virtual network on Azure. I will also show you how to login to those virtual 
+the cloud. In this tutorial I will show you how to create virtual machines in Azure. I will also show you how to login to those virtual 
 machines remotely using RDP and SSH <br />
 
 <h2>Environments and Technologies Used</h2>
