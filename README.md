@@ -1,35 +1,31 @@
 <p align="center">
 </p>
 
-<h1>Network Security Groups (NSGs) and Inspecting Traffic Between Azure Virtual Machines</h1>
-In this tutorial, we observe various network traffic to and from Azure Virtual Machines with Wireshark as well as experiment with Network Security Groups. <br />
-
-
-<h2>Video Demonstration</h2>
-
-- ### [YouTube: Azure Virtual Machines, Wireshark, and Network Security Groups](https://www.youtube.com)
+<h1>Creating a Virtual Network on Azure</h1>
+Mircosoft Azure is cloud service that allows you create resources such virtual machines, virtual networks, storage and much more that scales with your 
+company needs. It is very important to have experience with cloud computing as an IT professional as many compaines are moving their IT infrastructure to 
+the cloud. In this tutorial I will show you how to create virtual machines in that share a virtual network on Azure. I will also show you how to login to those virtual 
+machines remotely using RDP and SSH <br />
 
 <h2>Environments and Technologies Used</h2>
 
 - Microsoft Azure (Virtual Machines/Compute)
-- Remote Desktop
-- Various Command-Line Tools
-- Various Network Protocols (SSH, RDH, DNS, HTTP/S, ICMP)
-- Wireshark (Protocol Analyzer)
+- RDP
+- SSH
 
 <h2>Operating Systems Used </h2>
 
-- Windows 10 (21H2)
+- Windows 11
 - Ubuntu Server 20.04
 
 <h2>High-Level Steps</h2>
 
-- Step 1
-- Step 2
-- Step 3
-- Step 4
+- Create a windows vitual machine and a linux virtaul machine
+- Place them on the same Virtual Network
+- Login to the windows VM with RDP
+- Login to the linux VM with SSH
 
-<h2>Actions and Observations</h2>
+<h2>Creating a Virtual Network on Azure</h2>
 
 <p>
 <img width="1920" height="955" alt="Snapshot#1" src="https://github.com/user-attachments/assets/81da1903-38a4-4b71-8a42-36c771cd739a" />
@@ -272,4 +268,14 @@ First, you will have to get the public IP address of the linux machine
 <p>
 On the Windows VM, go to the power shell and use the SSH command followed by the Linux’s machine public IP address. You will be given a warning about logging in, just type yes. You will be asked for the password to the linux VM. When you type, it will be inviable. After that you will be login into the linux machine you in the Command line 
 </p>
-<br />
+<br />  
+
+
+<p>
+Awesome! You now know how to create virtual machines on Azure how to login to them using remote protocols! If you want to learn some common networking commands using our Windows VM, check out this tutorial: 
+
+[Mircosoft Azure: Common Networking Commands](https://github.com/JosephShamoon99/Common-Networking-Commands)
+</p>
+<br /> 
+
+
